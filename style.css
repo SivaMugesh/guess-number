@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.div {
+    height: 100vh;
+    width: 100%;
+    background: url(./mi-min-pkpqoBp11Jc-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.h1 {
+    padding: 10px;
+    font-size: 100px;
+
+    text-align: center;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width:600px) {
+
+    .h1 {
+        padding: 10px;
+        font-size: 50px;
+
+        text-align: center;
+    }
+}
+
+.store {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    border: none;
+    outline: none;
+    box-shadow: inset 0 3em 3em white,
+        -0.3em 0.3em 1em rgba(0, 0, 0, 0.5)
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    box-shadow: inset 0 3em 3em white,
+        -0.3em 0.3em 1em rgba(0, 0, 0, 0.5)
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+
+}
+
+#input {
+
+    width: 300px;
+
+    background-color: white;
+    border-radius: 20px;
+    margin: 15px;
+    box-shadow: inset 0 3em 3em white,
+        -0.3em 0.3em 1em rgba(0, 0, 0, 0.5);
+    color: red;
+
+
+}
+
+#math {
+
+    width: 300px;
+
+    /* background-color:white; */
+    border-radius: 20px;
+    box-shadow: inset 0 -3em 3em white,
+        -0.3em 0.3em 1em rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    color: red;
+}
+
+#cons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+
+
+
+}
+
+.con {
+
+    width: 400px;
+    box-shadow: inset 0 -3em 3em white,
+        -0.3em 0.3em 1em rgba(0, 0, 0, 0.5);
+
+    padding: 40px;
+    border-radius: 50px;
+
+    transform: translate(10px);
+
+
+
+}
+
+h1 {
+    padding: 10px;
+    font-size: 30px;
+
+    text-align: center;
+    font-weight: bold;
+
+}
